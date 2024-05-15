@@ -1,0 +1,126 @@
+.banner {
+  background: url("https://4kwallpapers.com/images/walls/thumbs_3t/4597.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 35%;
+  color: white;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.Portofolio {
+  background-color: #fbf3d5;
+}
+
+/* CSS untuk kelas .container-fluid */
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* CSS untuk kelas .Tentang-Kami */
+.Tentang-Kami {
+  background: url("https://cdn.pixabay.com/photo/2020/11/26/15/48/sea-5779375_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: #fffffa; /* Warna teks menjadi putih */
+}
+
+.kontak {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.kontak h2 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+.kontak container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.kontak-info {
+  flex: 1;
+  background-color: #51829b;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.kontak-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.kontak-item i {
+  font-size: 24px;
+  color: aquamarine;
+  margin-right: 10px;
+}
+
+.kontak-text {
+  flex: 1;
+}
+
+.kontak-text p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.kontak-form {
+  flex: 1;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.kontak-form h3 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.form-grup {
+  margin-bottom: 1.5rem;
+}
+
+.form-grup input,
+.form-grup textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #fbf3d5;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.form-grup textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  background-color: #c40c0c;
+  color: #fffffa;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0, 3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #08d0eb;
+  color: black;
+}
